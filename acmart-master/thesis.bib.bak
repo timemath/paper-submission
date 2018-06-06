@@ -1,0 +1,1666 @@
+% Encoding: UTF-8
+
+@InProceedings{whisper,
+  author    = {Sanketh Nalli and Swapnil Haria and Mark D. Hill and Michael M. Swift and Haris Volos and Kimberly Keeton},
+  title     = {An Analysis of Persistent Memory Use with {WHISPER}},
+  booktitle = {Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, {ASPLOS} 2017, Xi'an, China, April 8-12, 2017},
+  year      = {2017},
+  pages     = {135--148},
+}
+
+@InProceedings{wisckey,
+  author    = {Lanyue Lu and Thanumalayan Sankaranarayana Pillai and Andrea C. Arpaci{-}Dusseau and Remzi H. Arpaci{-}Dusseau},
+  title     = {WiscKey: Separating Keys from Values in SSD-conscious Storage},
+  booktitle = {14th {USENIX} Conference on File and Storage Technologies, {FAST} 2016, Santa Clara, CA, USA, February 22-25, 2016.},
+  year      = {2016},
+  pages     = {133--148},
+}
+
+@InProceedings{nv-tree,
+  author    = {Jun Yang and Qingsong Wei and Cheng Chen and Chundong Wang and Khai Leong Yong and Bingsheng He},
+  title     = {NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems},
+  booktitle = {Proceedings of the 13th {USENIX} Conference on File and Storage Technologies, {FAST} 2015, Santa Clara, CA, USA, February 16-19, 2015},
+  year      = {2015},
+  pages     = {167--181},
+}
+
+@InProceedings{echo,
+  author    = {Katelin A. Bailey and Peter Hornyack and Luis Ceze and Steven D. Gribble and Henry M. Levy},
+  title     = {Exploring storage class memory with key value stores},
+  booktitle = {Proceedings of the 1st Workshop on Interactions of {NVM/FLASH} with Operating Systems and Workloads, {INFLOW} 2013, Farmington, Pennsylvania, USA, November 3, 2013},
+  year      = {2013},
+  pages     = {4:1--4:8},
+}
+
+@InProceedings{bigtable,
+  author    = {Fay Chang and Jeffrey Dean and Sanjay Ghemawat and Wilson C. Hsieh and Deborah A. Wallach and Michael Burrows and Tushar Chandra and Andrew Fikes and Robert Gruber},
+  title     = {Bigtable: {A} Distributed Storage System for Structured Data (Awarded Best Paper!)},
+  booktitle = {7th Symposium on Operating Systems Design and Implementation {(OSDI} '06), November 6-8, Seattle, WA, {USA}},
+  year      = {2006},
+  pages     = {205--218},
+}
+
+@Electronic{filebench,
+  title     = {Filebench File System Benchmark Suite, \url{http://sourceforge.net/projects/filebench/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Article{Hwang2015HEAPO,
+  author  = {Hwang, Taeho and Jung, Jaemin and Won, Youjip},
+  title   = {HEAPO: Heap-Based Persistent Object Store},
+  journal = {ACM Transactions on Storage 2015},
+}
+
+@Electronic{iozone,
+  author = {IOZONE},
+  title  = {\url{http://www.iozone.org/}},
+}
+
+@Electronic{nilfs,
+  author    = {NILFS2},
+  title     = {\url{http://www.nilfs.org/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{bigraph,
+  author = {Wiki Pedia},
+  title  = {\url{https://en.wikipedia.org/wiki/Bipartite_graph}},
+}
+
+@Electronic{sjtuhmfs,
+  author    = {SJTU-HMFS},
+  title     = {\url{https://github.com/timemath/hmfs}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Article{miaoimmortalgraph,
+  author    = {Miao, Youshan and Han, Wentao and Li, Kaiwei and Wu, Ming and Yang, Fan and Zhou, Lidong and Prabhakaran, Vijayan and Chen, Enhong and Chen, Wenguang},
+  title     = {ImmortalGraph: A System for Storage and Analysis of Temporal Graphs},
+  owner     = {liuhao},
+  timestamp = {2015.10.14},
+}
+
+@Electronic{3dxpoint,
+  title     = {Intel and Micron 3D XPoint Technology. \url{https://en.wikipedia.org/wiki/3D_XPoint}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{nvmstorage,
+  title     = {Memory is the New Storage: How Next Generation NVM DIMMs will Enable New Solutions That Use Memory as the High-Performance Storage Tier, \url{http://www.snia.org/sites/default/files/NVM/2016/presentations/KenGibson_Memory_New_Storage-Next_Gen_REVISION.pdf}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{mongodb,
+  title     = {MongoDB, \url{https://www.mongodb.org/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{PMEM,
+  title     = {PMEM: Persistent memory block device support, \url{https://github.com/01org/prd}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{ext4NVM,
+  title     = {Support ext4 on NV-DIMMs, \url{http://lwn.net/Articles/588218/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{tpc-c,
+  title     = {Transaction Processing Performance Council, TPC-C, \url{http://www.tpc.org/tpcc/}},
+  owner     = {hao},
+  review    = {@article{Kaminsky2014MICA,
+  title={MICA: A Holistic Approach to Fast In-Memory Key-Value Storage},
+  author={Kaminsky, M. and Andersen, D. and Lim, H},
+  journal={Management},
+  year={2014},
+}},
+  timestamp = {2015.01.28},
+}
+
+@Article{zfs,
+  author    = {J. Bonwick and B. Moore.},
+  title     = {ZFS: The Last Word in File Systems.},
+  journal   = {http://opensolaris.org/os/community/zfs/docs/zfs last.pdf.},
+  volume    = {9},
+  number    = {3},
+  pages     = {9},
+  owner     = {liuhao},
+  publisher = {ACM},
+  review    = {@article{Kaminsky2014MICA,
+  title={MICA: A Holistic Approach to Fast In-Memory Key-Value Storage},
+  author={Kaminsky, M. and Andersen, D. and Lim, H},
+  journal={Management},
+  year={2014},
+}},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{Ou2016A,
+  author    = {Ou, Jiaxin and Shu, Jiwu and Lu, Youyou},
+  title     = {A high performance file system for non-volatile main memory},
+  booktitle = {Proceedings of the Eleventh European Conference on Computer Systems},
+  year      = {2016},
+}
+
+@Article{Mittal2016A,
+  author  = {Mittal, Sparsh and Vetter, Jeffrey S.},
+  title   = {A Survey of Software Techniques for Using Non-Volatile Memories for Storage and Main Memory Systems},
+  journal = {IEEE Transactions on Parallel \& Distributed Systems},
+  year    = {2016},
+  volume  = {27},
+  number  = {5},
+  pages   = {1537-1550},
+}
+
+@InProceedings{Zheng2016HMVFS,
+  author    = {Zheng, Shengan and Huang, Linpeng and Liu, Hao and Wu, Linzhu and Zha, Jin},
+  title     = {HMVFS: A Hybrid Memory Versioning File System},
+  booktitle = {MASS Storage Systems and Technologies},
+  year      = {2016},
+}
+
+@InProceedings{196392,
+  author    = {Michael Wei and Chris Rossbach and Ittai Abraham and Udi Wieder and Steven Swanson and Dahlia Malkhi and Amy Tai},
+  title     = {Silver: A Scalable, Distributed, Multi-versioning, Always Growing (Ag) File System},
+  booktitle = {8th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 16)},
+  year      = {2016},
+  publisher = {USENIX Association},
+}
+
+@InProceedings{Zhang2015A,
+  author    = {Zhang, Yiying and Swanson, Steven},
+  title     = {A study of application performance with non-volatile main memory},
+  booktitle = {Symposium on Mass Storage Systems \& Technologies},
+  year      = {2015},
+  pages     = {1-10},
+}
+
+@InProceedings{sehgal2015empirical,
+  author       = {Sehgal, Priya and Basu, Sourav and Srinivasan, Kiran and Voruganti, Kaladhar},
+  title        = {An empirical study of file systems on NVM},
+  booktitle    = {2015 31st Symposium on Mass Storage Systems and Technologies (MSST)},
+  year         = {2015},
+  organization = {IEEE},
+  pages        = {1--14},
+}
+
+@InProceedings{lu2015blurred,
+  author       = {Lu, Youyou and Shu, Jiwu and Sun, Long},
+  title        = {Blurred persistence in transactional persistent memory},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2015 31st Symposium on},
+  year         = {2015},
+  organization = {IEEE},
+  pages        = {1--13},
+  owner        = {liuhao},
+  timestamp    = {2015.10.20},
+}
+
+@InProceedings{sun2015dp,
+  author       = {Sun, Long and Lu, Youyou and Shu, Jiwu},
+  title        = {DP 2: reducing transaction overhead with differential and dual persistency in persistent memory},
+  booktitle    = {Proceedings of the 12th ACM International Conference on Computing Frontiers},
+  year         = {2015},
+  organization = {ACM},
+  pages        = {24},
+  owner        = {liuhao},
+  timestamp    = {2015.10.20},
+}
+
+@InProceedings{lee2015f2fs,
+  author    = {Lee, Changman and Sim, Dongho and Hwang, Jooyoung and Cho, Sangyeun},
+  title     = {F2FS: A new file system for flash storage},
+  booktitle = {Proceedings of the USENIX Conference on File and Storage Technologies (FAST)},
+  year      = {2015},
+}
+
+@InProceedings{Dragga2015,
+  author       = {Dragga, Chris and Santry, Douglas J},
+  title        = {GCTrees: Garbage collecting snapshots},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2015 31st Symposium on},
+  year         = {2015},
+  organization = {IEEE},
+  pages        = {1--12},
+  owner        = {liuhao},
+  timestamp    = {2015.10.26},
+}
+
+@Article{lu2015high,
+  author    = {Lu, Yang and Shu, Jiangang and Guo, Jun and Li, Sinan and Mutlu, Onur},
+  title     = {High-performance and lightweight transaction support in flash-based SSDs},
+  year      = {2015},
+  owner     = {liuhao},
+  publisher = {IEEE},
+  timestamp = {2015.10.20},
+}
+
+@InProceedings{zhang2015mojim,
+  author       = {Zhang, Yiying and Yang, Jian and Memaripour, Amirsaman and Swanson, Steven},
+  title        = {Mojim: A Reliable and Highly-Available Non-Volatile Memory System},
+  booktitle    = {Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems},
+  year         = {2015},
+  organization = {ACM},
+  pages        = {3--18},
+}
+
+@InProceedings{Chen2015,
+  author       = {Chen, Rong and Shi, Jiaxin and Chen, Yanzhe and Chen, Haibo},
+  title        = {Powerlyra: Differentiated graph computation and partitioning on skewed graphs},
+  booktitle    = {Proceedings of the Tenth European Conference on Computer Systems},
+  year         = {2015},
+  organization = {ACM},
+  pages        = {1},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@InProceedings{chen2014protected,
+  author       = {Chen, Feng and Mesnier, Michael P and Hahn, Seungyong},
+  title        = {A protected block device for persistent memory},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2014 30th Symposium on},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {1--12},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@Article{lu2014study,
+  author    = {Lu, Lanyue and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H and Lu, Shan},
+  title     = {A study of Linux file system evolution},
+  journal   = {ACM Transactions on Storage (TOS)},
+  year      = {2014},
+  volume    = {10},
+  number    = {1},
+  pages     = {3},
+  owner     = {liuhao},
+  publisher = {ACM},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{Volos2014,
+  author       = {Volos, Haris and Nalli, Sanketh and Panneerselvam, Sankarlingam and Varadarajan, Venkatanathan and Saxena, Prashant and Swift, Michael M},
+  title        = {Aerie: flexible file-system interfaces to storage-class memory},
+  booktitle    = {Proceedings of the Ninth European Conference on Computer Systems},
+  year         = {2014},
+  organization = {ACM},
+  pages        = {14},
+  owner        = {hao},
+  timestamp    = {2015.01.26},
+}
+
+@InProceedings{yang2014analytical,
+  author       = {Yang, Yue and Zhu, Jianwen},
+  title        = {Analytical modeling of garbage collection algorithms in hotness-aware flash-based solid state drives},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2014 30th Symposium on},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {1--10},
+  owner        = {liuhao},
+  timestamp    = {2015.10.26},
+}
+
+@InProceedings{wei2014cbm,
+  author       = {Wei, Qingsong and Chen, Cheng and Yang, Jun},
+  title        = {CBM: A cooperative buffer management for SSD},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2014 30th Symposium on},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {1--12},
+  owner        = {liuhao},
+  timestamp    = {2015.10.26},
+}
+
+@Article{Zangeneh2014Design,
+  author  = {Zangeneh, M. and Joshi, A.},
+  title   = {Design and Optimization of Nonvolatile Multibit 1T1R Resistive RAM},
+  journal = {IEEE Transactions on Very Large Scale Integration Systems},
+  year    = {2014},
+  volume  = {22},
+  number  = {8},
+  pages   = {1815-1828},
+}
+
+@InProceedings{rumble2014log,
+  author    = {Rumble, Stephen M and Kejriwal, Ankita and Ousterhout, John K},
+  title     = {Log-structured memory for DRAM-based storage.},
+  booktitle = {FAST},
+  year      = {2014},
+  volume    = {1},
+  pages     = {16},
+  owner     = {liuhao},
+  timestamp = {2015.10.01},
+}
+
+@InProceedings{liu2014nvm,
+  author       = {Liu, Ren-Shuo and Shen, De-Yu and Yang, Chia-Lin and Yu, Shun-Chih and Wang, Cheng-Yuan Michael},
+  title        = {NVM Duet: Unified working memory and persistent store architecture},
+  booktitle    = {Proceedings of the 19th international conference on Architectural support for programming languages and operating systems},
+  year         = {2014},
+  organization = {ACM},
+  pages        = {455--470},
+  owner        = {hao},
+  timestamp    = {2015.02.03},
+}
+
+@InProceedings{lu2014reconfs,
+  author    = {Lu, Youyou and Shu, Jiwu and Wang, Wei},
+  title     = {ReconFS: a reconstructable file system on flash storage.},
+  booktitle = {FAST},
+  year      = {2014},
+  pages     = {75--88},
+  owner     = {liuhao},
+  timestamp = {2015.10.20},
+}
+
+@InProceedings{dulloor2014system,
+  author       = {Dulloor, Subramanya R and Kumar, Sanjay and Keshavamurthy, Anil and Lantz, Philip and Reddy, Dheeraj and Sankaran, Rajesh and Jackson, Jeff},
+  title        = {System software for persistent memory},
+  booktitle    = {Proceedings of the Ninth European Conference on Computer Systems},
+  year         = {2014},
+  organization = {ACM},
+  pages        = {15},
+  owner        = {liuhao},
+  timestamp    = {2015.10.01},
+}
+
+@InProceedings{Haoyuan2014Tachyon,
+  author    = {Haoyuan Li and Ali Ghodsi and Matei Zaharia and Scott Shenker and Ion Stoica},
+  title     = {Tachyon:Reliable, Memory Speed Storage for Cluster Computing Frameworks},
+  booktitle = {Proceedings of the 5st ACM symposium on Cloud computing(SOCC)},
+  year      = {2014},
+  pages     = {1-15},
+}
+
+@InProceedings{fan2014wl,
+  author       = {Fan, Jie and Jiang, Song and Shu, Jiwu and Sun, Long and Hu, Qingda},
+  title        = {WL-Reviver: A Framework for Reviving any Wear-Leveling Techniques in the Face of Failures on Phase Change Memory},
+  booktitle    = {Dependable Systems and Networks (DSN), 2014 44th Annual IEEE/IFIP International Conference on},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {228--239},
+  owner        = {liuhao},
+  timestamp    = {2015.10.20},
+}
+
+@Article{rodeh2013btrfs,
+  author    = {Rodeh, Ohad and Bacik, Josef and Mason, Chris},
+  title     = {BTRFS: The Linux B-tree filesystem},
+  journal   = {ACM Transactions on Storage (TOS)},
+  year      = {2013},
+  publisher = {ACM},
+}
+
+@InProceedings{moraru2013consistent,
+  author       = {Moraru, Iulian and Andersen, David G and Kaminsky, Michael and Tolia, Niraj and Ranganathan, Parthasarathy and Binkert, Nathan},
+  title        = {Consistent, durable, and safe memory management for byte-addressable non volatile main memory},
+  booktitle    = {Proceedings of the First ACM SIGOPS Conference on Timely Results in Operating Systems},
+  year         = {2013},
+  organization = {ACM},
+  pages        = {1},
+}
+
+@InProceedings{lu2013extending,
+  author    = {Lu, Youyou and Shu, Jiwu and Zheng, Weimin and others},
+  title     = {Extending the lifetime of flash-based storage through reducing write amplification from file systems.},
+  booktitle = {FAST},
+  year      = {2013},
+  pages     = {257--270},
+  owner     = {liuhao},
+  timestamp = {2015.10.20},
+}
+
+@Article{Wang2013Low,
+  author  = {Wang, K L and Alzate, J G and Amiri, P Khalili},
+  title   = {Low-power non-volatile spintronic memory: STT-RAM and beyond},
+  journal = {Journal of Physics D Applied Physics},
+  year    = {2013},
+  volume  = {46},
+  number  = {7},
+  pages   = {1071-1075},
+}
+
+@InProceedings{jung2013memorage,
+  author       = {Jung, Ju-Young and Cho, Sangyeun},
+  title        = {Memorage: Emerging persistent RAM based malleable main memory and storage architecture},
+  booktitle    = {Proceedings of the 27th international ACM conference on International conference on supercomputing},
+  year         = {2013},
+  organization = {ACM},
+  pages        = {115--126},
+  owner        = {liuhao},
+  timestamp    = {2015.08.10},
+}
+
+@Article{Yang2013Memristive,
+  author  = {Yang, J. Joshua and Williams, R. Stanley},
+  title   = {Memristive devices in computing system: Promises and challenges},
+  journal = {Acm Journal on Emerging Technologies in Computing Systems},
+  year    = {2013},
+  volume  = {9},
+  number  = {2},
+  pages   = {292-299},
+}
+
+@InProceedings{qiu2013nvmfs,
+  author       = {Qiu, Sheng and Reddy, AL Narasimha},
+  title        = {NVMFS: A hybrid file system for improving random write in nand-flash SSD},
+  booktitle    = {2013 IEEE 29th Symposium on Mass Storage Systems and Technologies (MSST)},
+  year         = {2013},
+  organization = {IEEE},
+  pages        = {1--5},
+  owner        = {hao},
+  timestamp    = {2015.01.28},
+}
+
+@Book{eisner2013quill,
+  author    = {Eisner, Louis Alex and Mollov, Todor and Swanson, Steven J},
+  title     = {Quill: Exploiting fast non-volatile memory by transparently bypassing the file system},
+  year      = {2013},
+  publisher = {Citeseer},
+  owner     = {hao},
+  timestamp = {2015.01.26},
+}
+
+@Article{Oh2013Slack,
+  author    = {Oh, Yongseok and Choi, Jongmoo and Lee, Donghee and Noh, Sam H.},
+  title     = {Slack Space Recycling: Delaying On-Demand Cleaning in LFS for Performance and Endurance},
+  journal   = {IEEE Transactions on Information and Systems},
+  year      = {2013},
+  volume    = {96},
+  number    = {9},
+  pages     = {2075-2086},
+  owner     = {liuhao},
+  timestamp = {2015.10.18},
+}
+
+@Article{Arpaci2012Consistency,
+  author  = {Arpaci-Dusseau, Andrea C. and Chidambaram, Vijay and Sharma, Tushar and Arpaci-Dusseau, Remzi H.},
+  title   = {Consistency without ordering},
+  journal = {In Proceedings of the 10th USENIX Symposium on File and Storage Technologies (FAST ’12)},
+  year    = {2012},
+}
+
+@InProceedings{saxena2012flashtier,
+  author       = {Saxena, Mohit and Swift, Michael M and Zhang, Yiying@inproceedings{puttaswamy2012frugal, title={Frugal storage for cloud file systems}, author={Puttaswamy, Krishna PN and Nandagopal, Thyaga and Kodialam, Murali}, booktitle={Proceedings of the 7th ACM european conference on Computer Systems}, pages={71--84}, year={2012}, organization={ACM} }},
+  title        = {Flashtier: a lightweight, consistent and durable storage cache},
+  booktitle    = {Proceedings of the 7th ACM european conference on Computer Systems},
+  year         = {2012},
+  organization = {ACM},
+  pages        = {267--280},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@InProceedings{puttaswamy2012frugal,
+  author       = {Puttaswamy, Krishna PN and Nandagopal, Thyaga and Kodialam, Murali},
+  title        = {Frugal storage for cloud file systems},
+  booktitle    = {Proceedings of the 7th ACM european conference on Computer Systems},
+  year         = {2012},
+  organization = {ACM},
+  pages        = {71--84},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@InProceedings{min2012sfs,
+  author    = {Min, Changwoo and Kim, Kangnyeon and Cho, Hyunjin and Lee, Sang-Won and Eom, Young Ik},
+  title     = {SFS: random write considered harmful in solid state drives},
+  booktitle = {FAST},
+  year      = {2012},
+}
+
+@InProceedings{Venkataraman2011,
+  author    = {Venkataraman, Shivaram and Tolia, Niraj and Ranganathan, Parthasarathy and Campbell, Roy H and others},
+  title     = {Consistent and Durable Data Structures for Non-Volatile Byte-Addressable Memory.},
+  booktitle = {FAST},
+  year      = {2011},
+  pages     = {61--75},
+  owner     = {hao},
+  timestamp = {2015.01.26},
+}
+
+@InProceedings{volos2011mnemosyne,
+  author       = {Volos, Haris and Tack, Andres Jaan and Swift, Michael M},
+  title        = {Mnemosyne: Lightweight persistent memory},
+  booktitle    = {ACM SIGARCH Computer Architecture News},
+  year         = {2011},
+  volume       = {39},
+  number       = {1},
+  organization = {ACM},
+  pages        = {91--104},
+  owner        = {hao},
+  review       = {@article{Wu2015LSM,
+  title={LSM-trie: An LSM-tree-based Ultra-Large Key-Value Store for Small Data},
+  author={Wu, Xingbo and Xu, Yuehai and Shao, Zili and Jiang, Song},
+  year={2015},
+}},
+  timestamp    = {2015.01.26},
+}
+
+@InProceedings{coburn2011nv,
+  author       = {Coburn, Joel and Caulfield, Adrian M and Akel, Ameen and Grupp, Laura M and Gupta, Rajesh K and Jhala, Ranjit and Swanson, Steven},
+  title        = {NV-Heaps: making persistent objects fast and safe with next-generation, non-volatile memories},
+  booktitle    = {ACM SIGARCH Computer Architecture News},
+  year         = {2011},
+  volume       = {39},
+  number       = {1},
+  organization = {ACM},
+  pages        = {105--118},
+  owner        = {hao},
+  timestamp    = {2015.01.26},
+}
+
+@InProceedings{bailey2011operating,
+  author       = {Bailey, Katelin and Ceze, Luis and Gribble, Steven D and Levy, Henry M},
+  title        = {Operating system implications of fast, cheap, non-volatile memory},
+  booktitle    = {Proceedings of the 13th USENIX conference on Hot topics in operating systems},
+  year         = {2011},
+  organization = {USENIX Association},
+  pages        = {2--2},
+}
+
+@InProceedings{ramos2011page,
+  author       = {Ramos, Luiz E and Gorbatov, Eugene and Bianchini, Ricardo},
+  title        = {Page placement in hybrid memory systems},
+  booktitle    = {Proceedings of the international conference on Supercomputing},
+  year         = {2011},
+  organization = {ACM},
+  pages        = {85--95},
+  owner        = {hao},
+  timestamp    = {2015.01.29},
+}
+
+@InProceedings{wu2011scmfs,
+  author       = {Wu, Xiaojian and Reddy, AL},
+  title        = {SCMFS: a file system for storage class memory},
+  booktitle    = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
+  year         = {2011},
+  organization = {ACM},
+  pages        = {39},
+  owner        = {hao},
+  timestamp    = {2015.01.28},
+}
+
+@InProceedings{twigg2011stratified,
+  author    = {Twigg, Andy and Byde, Andrew and Milos, Grzegorz and Moreton, Tim and Wilkes, John and Wilkie, Tom},
+  title     = {Stratified b-trees and versioned dictionaries},
+  booktitle = {Proceedings of the 3rd USENIX conference on Hot topics in storage and file systems, HotStorage},
+  year      = {2011},
+  volume    = {11},
+  pages     = {10--10},
+}
+
+@InProceedings{cooper2010benchmarking,
+  author       = {Cooper, Brian F and Silberstein, Adam and Tam, Erwin and Ramakrishnan, Raghu and Sears, Russell},
+  title        = {Benchmarking cloud serving systems with YCSB},
+  booktitle    = {Proceedings of the 1st ACM symposium on Cloud computing(SOCC)},
+  year         = {2010},
+  organization = {ACM},
+  pages        = {143--154},
+}
+
+@Article{josephson2010dfs,
+  author    = {Josephson, William K and Bongo, Lars A and Li, Kai and Flynn, David},
+  title     = {Dfs: A file system for virtualized flash storage},
+  journal   = {ACM Transactions on Storage (TOS)},
+  year      = {2010},
+  volume    = {6},
+  number    = {3},
+  pages     = {14},
+  owner     = {hao},
+  publisher = {ACM},
+  timestamp = {2015.01.29},
+}
+
+@InProceedings{zhang2010end,
+  author    = {Zhang, Yupu and Rajimwale, Abhishek and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H},
+  title     = {End-to-end Data Integrity for File Systems: A ZFS Case Study},
+  booktitle = {FAST},
+  year      = {2010},
+}
+
+@InProceedings{oh2010optimizations,
+  author       = {Oh, Yongseok and Kim, Eunsam and Choi, Jongmoo and Lee, Donghee and Noh, Sam H},
+  title        = {Optimizations of LFS with slack space recycling and lazy indirect block update},
+  booktitle    = {Proceedings of the 3rd Annual Haifa Experimental Systems Conference},
+  year         = {2010},
+  organization = {ACM},
+  pages        = {2},
+}
+
+@Article{Wong2010Phase,
+  author  = {Wong, H. S. P. and Raoux, S. and Kim, Sang Bum and Liang, Jiale and Reifenberg, John P. and Rajendran, B. and Asheghi, Mehdi and Goodson, Kenneth E.},
+  title   = {Phase Change Memory},
+  journal = {Proceedings of the IEEE},
+  year    = {2010},
+  volume  = {98},
+  number  = {12},
+  pages   = {2201-2227},
+}
+
+@InProceedings{shvachko2010hadoop,
+  author       = {Shvachko, Konstantin and Kuang, Hairong and Radia, Sanjay and Chansler, Robert},
+  title        = {The hadoop distributed file system},
+  booktitle    = {Mass Storage Systems and Technologies (MSST), 2010 IEEE 26th Symposium on},
+  year         = {2010},
+  organization = {IEEE},
+  pages        = {1--10},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@InProceedings{condit2009better,
+  author       = {Condit, Jeremy and Nightingale, Edmund B and Frost, Christopher and Ipek, Engin and Lee, Benjamin and Burger, Doug and Coetzee},
+  title        = {Better I/O through byte-addressable, persistent memory},
+  booktitle    = {Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles},
+  year         = {2009},
+  organization = {ACM},
+  pages        = {133--146},
+  owner        = {hao},
+  timestamp    = {2015.01.26},
+}
+
+@InProceedings{mogul2009operating,
+  author    = {Mogul, Jeffrey C and Argollo, Eduardo and Shah, Mehul A and Faraboschi, Paolo},
+  title     = {Operating System Support for NVM+ DRAM Hybrid Main Memory.},
+  booktitle = {HotOS},
+  year      = {2009},
+  owner     = {hao},
+  timestamp = {2015.01.26},
+}
+
+@InProceedings{dhiman2009pdram,
+  author       = {Dhiman, Gaurav and Ayoub, Raid and Rosing, Tajana},
+  title        = {PDRAM: a hybrid PRAM and DRAM main memory system},
+  booktitle    = {Design Automation Conference, 2009. DAC'09. 46th ACM/IEEE},
+  year         = {2009},
+  organization = {IEEE},
+  pages        = {664--669},
+  owner        = {hao},
+  timestamp    = {2015.01.26},
+}
+
+@Article{rodeh2008b,
+  author    = {Rodeh, Ohad},
+  title     = {B-trees, shadowing, and clones},
+  journal   = {ACM Transactions on Storage (TOS)},
+  year      = {2008},
+  publisher = {ACM},
+}
+
+@InProceedings{felber2008dynamic,
+  author    = {Felber, Pascal and Fetzer, Christof and Riegel, Torvald},
+  title     = {Dynamic performance tuning of word-based software transactional memory},
+  booktitle = {Proceedings of the 13th ACM SIGPLAN Symposium on Principles and practice of parallel programming},
+  year      = {2008},
+  pages     = {237--246},
+}
+
+@Article{bao2008hmtt,
+  author    = {Bao, Yungang and Chen, Mingyu and Ruan, Yuan and Liu, Li and Fan, Jianping and Yuan, Qingbo and Song, Bo and Xu, Jianwei},
+  title     = {HMTT: a platform independent full-system memory trace monitoring system},
+  journal   = {ACM SIGMETRICS Performance Evaluation Review},
+  year      = {2008},
+  volume    = {36},
+  number    = {1},
+  pages     = {229--240},
+  publisher = {ACM},
+}
+
+@InProceedings{xiao2007design,
+  author       = {Xiao-Jia, Xiang and Ji-Wu, Shu and Wei, Xue and Wei-Min, Zheng},
+  title        = {Design and implementation of an efficient multi-version file system},
+  booktitle    = {Networking, Architecture, and Storage, 2007. NAS 2007. International Conference on},
+  year         = {2007},
+  organization = {IEEE},
+  pages        = {277--278},
+  owner        = {liuhao},
+  timestamp    = {2015.10.20},
+}
+
+@InProceedings{cipar2007tfs,
+  author    = {Cipar, James and Corner, Mark D and Berger, Emery D},
+  title     = {TFS: A Transparent File System for Contributory Storage.},
+  booktitle = {FAST},
+  year      = {2007},
+  volume    = {7},
+  pages     = {215--229},
+  owner     = {liuhao},
+  timestamp = {2015.10.21},
+}
+
+@Article{Konishi2006The,
+  author  = {Konishi, Ryusuke and Amagai, Yoshiji and Sato, Koji and Hifumi, Hisashi and Kihara, Seiji and Moriai, Satoshi},
+  title   = {The Linux implementation of a log-structured file system},
+  journal = {Acm Sigops Operating Systems Review},
+  year    = {2006},
+  pages   = {102-107},
+}
+
+@InProceedings{gray2005greetings,
+  author    = {Gray, Jim},
+  title     = {Greetings from a Filesystem User.},
+  booktitle = {FAST},
+  year      = {2005},
+  owner     = {liuhao},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{sun2005neighborhood,
+  author       = {Sun, Jimeng and Qu, Huiming and Chakrabarti, Deepayan and Faloutsos, Christos},
+  title        = {Neighborhood formation and anomaly detection in bipartite graphs},
+  booktitle    = {Fifth IEEE International Conference on Data Mining},
+  year         = {2005},
+  organization = {IEEE},
+  pages        = {8--pp},
+}
+
+@Article{Amagai2005The,
+  author  = {Amagai, Yoshiji and Hifumi, Hisashi and Konishi, Ryusuke and Sato, Koji and Kihara, Seiji and Moriai, Satoshi},
+  title   = {The Design and Implementation of 'nilfs', a Log-Structured File System for Linux},
+  journal = {Ipsj Sig Notes 2005},
+  year    = {2005},
+}
+
+@InProceedings{muniswamy2004versatile,
+  author    = {Muniswamy-Reddy, Kiran-Kumar and Wright, Charles P and Himmer, Andrew and Zadok, Erez},
+  title     = {A Versatile and User-Oriented Versioning File System.},
+  booktitle = {FAST},
+  year      = {2004},
+  volume    = {4},
+  pages     = {115--128},
+  owner     = {liuhao},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{wang2004hylog,
+  author    = {Wang, Wenguang and Zhao, Yanping and Bunt, Rick},
+  title     = {HyLog: A High Performance Approach to Managing Disk Layout.},
+  booktitle = {FAST},
+  year      = {2004},
+  volume    = {4},
+  pages     = {145--158},
+  owner     = {liuhao},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{edel2004mramfs,
+  author       = {Edel, Nathan K and Tuteja, Deepa and Miller, Ethan L and Brandt, Scott A},
+  title        = {MRAMFS: a compressing file system for non-volatile RAM},
+  booktitle    = {Modeling, Analysis, and Simulation of Computer and Telecommunications Systems, 2004.(MASCOTS 2004). Proceedings. The IEEE Computer Society's 12th Annual International Symposium on},
+  year         = {2004},
+  organization = {IEEE},
+  pages        = {596--603},
+  owner        = {hao},
+  timestamp    = {2015.01.26},
+}
+
+@InProceedings{pellizzer2004novel,
+  author       = {Pellizzer, F and Pirovano, A and Ottogalli, F and Magistretti, M and Scaravaggi, M and Zuliani, P and Tosi, M and Benvenuti, A and Besana, P and Cadeo, S and others},
+  title        = {Novel $\mu$trench phase-change memory cell for embedded and stand-alone non-volatile memory applications},
+  booktitle    = {VLSI Technology, 2004. Digest of Technical Papers. 2004 Symposium on},
+  year         = {2004},
+  organization = {IEEE},
+  pages        = {18--19},
+  owner        = {hao},
+  timestamp    = {2015.01.28},
+}
+
+@InProceedings{aranya2004tracefs,
+  author    = {Aranya, Akshat and Wright, Charles P and Zadok, Erez},
+  title     = {Tracefs: A File System to Trace Them All.},
+  booktitle = {FAST},
+  year      = {2004},
+  pages     = {129--145},
+  owner     = {liuhao},
+  timestamp = {2015.10.21},
+}
+
+@InProceedings{soules2003metadata,
+  author    = {Soules, Craig AN and Goodson, Garth R and Strunk, John D and Ganger, Gregory R},
+  title     = {Metadata Efficiency in Versioning File Systems},
+  booktitle = {FAST},
+  year      = {2003},
+  pages     = {43--58},
+}
+
+@InProceedings{Strunk2003Self,
+  author    = {Strunk, J. D. and Goodson, G. R. and Scheinholtz, M. L. and Soules, C. A. N. and Ganger, G. R.},
+  title     = {Self-Securing Storage: Protecting Data in Compromised Systems},
+  booktitle = {Foundations of Intrusion Tolerant Systems},
+  year      = {2003},
+  pages     = {195-195},
+  owner     = {liuhao},
+  timestamp = {2015.10.29},
+}
+
+@InProceedings{wang2002conquest,
+  author    = {Wang, An-I and Reiher, Peter L and Popek, Gerald J and Kuenning, Geoffrey H},
+  title     = {Conquest: Better Performance Through a Disk/Persistent-RAM Hybrid File System.},
+  booktitle = {USENIX Annual Technical Conference, General Track},
+  year      = {2002},
+  pages     = {15--28},
+  owner     = {hao},
+  timestamp = {2015.01.26},
+}
+
+@InProceedings{ruwart2001file,
+  author       = {Ruwart, Thomas M},
+  title        = {File system benchmarks, then, now, and tomorrow},
+  booktitle    = {Mass Storage Systems and Technologies, 2001. MSS'01. Eighteenth IEEE Symposium on},
+  year         = {2001},
+  organization = {IEEE},
+  pages        = {117--117},
+  owner        = {liuhao},
+  timestamp    = {2015.10.21},
+}
+
+@PhdThesis{macdonald2000file,
+  author    = {MacDonald, Josh},
+  title     = {File system support for delta compression},
+  year      = {2000},
+  owner     = {liuhao},
+  school    = {Masters thesis. Department of Electrical Engineering and Computer Science, University of California at Berkeley},
+  timestamp = {2015.10.25},
+}
+
+@Article{Matthews1997Improving,
+  author    = {Matthews, Jeanna Neefe and Roselli, Drew and Costello, Adam M. and Wang, Randolph Y. and Anderson, Thomas E.},
+  title     = {Improving the Performance of Log-Structured File Systems with Adaptive Methods.},
+  journal   = {Acm Sigops Operating Systems Review},
+  year      = {1997},
+  volume    = {31},
+  number    = {5},
+  pages     = {238-251},
+  owner     = {liuhao},
+  timestamp = {2015.10.18},
+}
+
+@Article{becker1996asymptotically,
+  author    = {Becker, Bruno and Gschwind, Stephan and Ohler, Thomas and Seeger, Bernhard and Widmayer, Peter},
+  title     = {An asymptotically optimal multiversion B-tree},
+  journal   = {The VLDB Journal—The International Journal on Very Large Data Bases},
+  year      = {1996},
+  volume    = {5},
+  number    = {4},
+  pages     = {264--275},
+  publisher = {Springer-Verlag New York, Inc.},
+}
+
+@PhdThesis{burns1996differential,
+  author    = {Burns, Randal C},
+  title     = {Differential compression: a generalized solution for binary files},
+  year      = {1996},
+  owner     = {liuhao},
+  school    = {Citeseer},
+  timestamp = {2015.10.25},
+}
+
+@Article{rosenblum1992design,
+  author    = {Rosenblum, Mendel and Ousterhout, John K},
+  title     = {The design and implementation of a log-structured file system},
+  journal   = {ACM Transactions on Computer Systems (TOCS)},
+  year      = {1992},
+  volume    = {10},
+  number    = {1},
+  pages     = {26--52},
+  publisher = {ACM},
+}
+
+@Article{quinlan1991cached,
+  author    = {Quinlan, Sean},
+  title     = {A cached worm file system},
+  journal   = {Software: Practice and Experience},
+  year      = {1991},
+  volume    = {21},
+  number    = {12},
+  pages     = {1289--1299},
+  owner     = {liuhao},
+  publisher = {Wiley Online Library},
+  timestamp = {2015.10.25},
+}
+
+@Book{lanka1991fully,
+  author    = {Lanka, Sitaram and Mays, Eric},
+  title     = {Fully persistent B+-trees},
+  year      = {1991},
+  volume    = {20},
+  number    = {2},
+  publisher = {ACM},
+}
+
+@Article{Bayer1972Organization,
+  author  = {Bayer, Rudolf and Mccreight, E},
+  title   = {Organization and maintenance of large ordered indexes},
+  journal = {Acta Informatica},
+  year    = {1972},
+  volume  = {1},
+  number  = {3},
+  pages   = {173-189},
+}
+
+@Electronic{leveldb,
+  author = {LevelDB},
+  title  = {\url{http://leveldb.org/}},
+}
+
+@Electronic{memcached,
+  author = {Memcached},
+  title  = {\url{http://memcached.org/}},
+}
+
+@Electronic{rocksdb,
+  author = {RocksDB},
+  title  = {\url{http://rocksdb.org/}},
+}
+
+@Electronic{NVDIMM,
+  author = {NVDIMM},
+  title  = {\url{http://www.vikingtechnology.com/nvdimm-technology}},
+}
+
+@Electronic{checksum,
+  author = {Checksum},
+  title  = {\url{https://en.wikipedia.org/wiki/Checksum}},
+}
+
+@Electronic{db-bench,
+  author = {db-bench},
+  title  = {\url{https://github.com/nurpax/db-bench}},
+}
+
+@Electronic{redis,
+  author = {Redis},
+  title  = {\url{https://redis.io/}},
+}
+
+@Electronic{intelmlc,
+  author = {Intel Memory Latency Checker.},
+  title  = {\url{https://software.intel.com/en-us/articles/intelr-memory-latency-checker}},
+}
+
+@InProceedings{Oukid2016FPTree,
+  author    = {Oukid, Ismail and Lasperas, Johan and Nica, Anisoara and Willhalm, Thomas and Lehner, Wolfgang},
+  title     = {FPTree: A Hybrid SCM-DRAM Persistent and Concurrent B-Tree for Storage Class Memory},
+  booktitle = {International Conference on Management of Data},
+  year      = {2016},
+  pages     = {371-386},
+}
+
+@InProceedings{Xu2016a,
+  author       = {Xu, Jian and Swanson, Steven},
+  title        = {NOVA: a log-structured file system for hybrid volatile/non-volatile main memories},
+  booktitle    = {Proceedings of the 14th Usenix Conference on File and Storage Technologies},
+  year         = {2016},
+  organization = {USENIX Association},
+  pages        = {323--338},
+}
+
+@InProceedings{Wu2016NVMcached,
+  author    = {Wu, Xingbo and Ni, Fan and Zhang, Li and Wang, Yandong and Ren, Yufei and Hack, Michel and Shao, Zili and Jiang, Song},
+  title     = {NVMcached: An NVM-based Key-Value Cache},
+  booktitle = {ACM Sigops Asia-Pacific Workshop on Systems},
+  year      = {2016},
+  pages     = {18},
+}
+
+@Article{Ganesh2015BASE,
+  author  = {Ganesh Chandra, Deka},
+  title   = {BASE analysis of NoSQL database},
+  journal = {Future Generation Computer Systems},
+  year    = {2015},
+  volume  = {52},
+  number  = {C},
+  pages   = {13-21},
+}
+
+@InProceedings{Volos2015Quartz,
+  author    = {Volos, Haris and Magalhaes, Guilherme and Cherkasova, Ludmila and Li, Jun},
+  title     = {Quartz: A Lightweight Performance Emulator for Persistent Memory Software},
+  booktitle = {MIDDLEWARE Conference},
+  year      = {2015},
+  pages     = {37-49},
+}
+
+@InProceedings{Pillai:2014:FSC:2685048.2685082,
+  author    = {Pillai, Thanumalayan Sankaranarayana and Chidambaram, Vijay and Alagappan, Ramnatthan and Al-Kiswany, Samer and Arpaci-Dusseau, Andrea C. and Arpaci-Dusseau, Remzi H.},
+  title     = {All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-consistent Applications},
+  booktitle = {Proceedings of the 11th USENIX Conference on Operating Systems Design and Implementation},
+  year      = {2014},
+  series    = {OSDI'14},
+  publisher = {USENIX Association},
+  location  = {Broomfield, CO},
+  isbn      = {978-1-931971-16-4},
+  pages     = {433--448},
+  url       = {http://dl.acm.org/citation.cfm?id=2685048.2685082},
+  acmid     = {2685082},
+  address   = {Berkeley, CA, USA},
+  numpages  = {16},
+}
+
+@Article{Atikoglu2012Workload,
+  author = {Atikoglu, Berk and Xu, Yuehai and Frachtenberg, Eitan and Jiang, Song and Paleczny, Mike},
+  title  = {Workload analysis of a large-scale key-value store},
+  year   = {2012},
+  volume = {40},
+  number = {1},
+  pages  = {53-64},
+}
+
+@InProceedings{Erlingsson2006A,
+  author    = {Erlingsson, U. and Manasse, M. and Mcsherry, F.},
+  title     = {A cool and practical alternative to traditional hash tables},
+  booktitle = {The Workshop on Distributed Data \& Structures},
+  year      = {2006},
+}
+
+@Book{Pagh2001,
+  author    = {Pagh, Rasmus and Rodler, Flemming Friche},
+  title     = {Cuckoo Hashing},
+  year      = {2001},
+  publisher = {Academic Press, Inc.},
+  pages     = {122-144},
+}
+
+@Article{Decandia2007Dynamo,
+  author  = {Decandia, Giuseppe and Hastorun, Deniz and Jampani, Madan and Kakulapati, Gunavardhan and Lakshman, Avinash and Pilchin, Alex and Sivasubramanian, Swaminathan and Vosshall, Peter and Vogels, Werner},
+  title   = {Dynamo: amazon's highly available key-value store},
+  journal = {Acm Sigops Operating Systems Review},
+  year    = {2007},
+  volume  = {41},
+  number  = {6},
+  pages   = {205-220},
+}
+
+@Electronic{dulloorthesis,
+  author = {SR. Dulloor. Systems and Applications for Persistent Memory. PhD Thesis, 2016.},
+  title  = {\url{https://smartech.gatech.edu/bitstream/handle/1853/54396/DULLOOR-DISSERTATION-2015.pdf}},
+}
+
+@Article{Apalkov2013Spin,
+  author  = {Apalkov, Dmytro and Khvalkovskiy, Alexey and Watts, Steven and Nikitin, Vladimir and Tang, Xueti and Lottis, Daniel and Moon, Kiseok and Luo, Xiao and Chen, Eugene and Ong, Adrian},
+  title   = {Spin-transfer torque magnetic random access memory (STT-MRAM)},
+  journal = {Acm Journal on Emerging Technologies in Computing Systems},
+  year    = {2013},
+  volume  = {9},
+  number  = {2},
+  pages   = {13},
+}
+
+@Book{Chen2015Persistent,
+  author    = {Chen, Shimin and Jin, Qin},
+  title     = {Persistent B + -trees in non-volatile main memory},
+  year      = {2015},
+  publisher = {VLDB Endowment},
+  pages     = {786-797},
+}
+
+@InProceedings{Karnagel2014Improving,
+  author    = {Karnagel, T and Dementiev, R and Rajwar, R and Lai, K},
+  title     = {Improving in-memory database index performance with Intel ® Transactional Synchronization Extensions},
+  booktitle = {IEEE International Symposium on High PERFORMANCE Computer Architecture},
+  year      = {2014},
+  pages     = {476-487},
+}
+
+@Article{O1996The,
+  author  = {O’Neil, Patrick and Cheng, Edward and Gawlick, Dieter and O’Neil, Elizabeth},
+  title   = {The log-structured merge-tree (LSM-tree)},
+  journal = {Acta Informatica},
+  year    = {1996},
+  volume  = {33},
+  number  = {4},
+  pages   = {351-385},
+}
+
+@Article{邢宇恒2016内存计算技术应对大数据挑战,
+  author  = {辛霆麟 邢宇恒},
+  title   = {内存计算技术应对大数据挑战},
+  journal = {科研},
+  year    = {2016},
+  number  = {12},
+  pages   = {00207-00208},
+}
+
+@Article{罗乐2016内存计算技术研究综述,
+  author  = {罗乐 刘轶 钱德沛},
+  title   = {内存计算技术研究综述},
+  journal = {软件学报},
+  year    = {2016},
+  volume  = {27},
+  number  = {08},
+  pages   = {2147-2167},
+}
+
+@Article{金海2013内存计算通讯,
+  author  = {金海 廖小飞 叶晨成},
+  title   = {内存计算:大数据处理的机遇与挑战},
+  journal = {中国计算机学会通讯},
+  year    = {2013},
+  volume  = {专栏,第9卷,第4期},
+}
+
+@Article{张学成2015内存文件系统综述,
+  author  = {张学成 肖侬 刘芳 余松平},
+  title   = {内存文件系统综述},
+  journal = {计算机研究与发展},
+  year    = {2015},
+  number  = {s2},
+}
+
+@Article{Felber2010Time,
+  author  = {Felber, Pascal and Fetzer, Christof and Marlier, Patrick and Riegel, Torvald},
+  title   = {Time-Based Software Transactional Memory},
+  journal = {IEEE Transactions on Parallel \& Distributed Systems},
+  year    = {2010},
+  volume  = {21},
+  number  = {12},
+  pages   = {1793-1807},
+}
+
+@Article{Mathur2007Ext4,
+  author  = {Mathur, Avantika and Cao, Mingming and Dilger, Andreas},
+  title   = {Ext4: the next generation of the ext3 file system},
+  journal = {;login:: the magazine of USENIX \& SAGE},
+  year    = {2007},
+  volume  = {32},
+  pages   = {25-30},
+}
+
+@InProceedings{Volos2013Storage,
+  author    = {Volos, Haris and Panneerselvam, Sankaralingam and Nalli, Sanketh and Swift, Michael M.},
+  title     = {Storage-class memory needs flexible interfaces},
+  booktitle = {Asia-Pacific Workshop on Systems},
+  year      = {2013},
+  pages     = {11},
+}
+
+@Article{Freitas2010Storage,
+  author  = {Freitas, R. F and Wilcke, W. W},
+  title   = {Storage-class memory: the next storage system technology},
+  journal = {Ibm Journal of Research \& Development},
+  year    = {2010},
+  volume  = {52},
+  number  = {4.5},
+  pages   = {439-447},
+}
+
+@InProceedings{刘峪竹2014基于,
+  author    = {刘峪竹 and 肖侬 and 刘芳 and 陈志广 and 唐黎哲},
+  title     = {基于SSD的Key-Value系统优化设计与实现},
+  booktitle = {2014全国信息存储技术学术会议},
+  year      = {2014},
+}
+
+@InProceedings{Zang2015PROP,
+  author    = {Zang, Dawei and Cao, Zheng and Liu, Xiaoli and Wang, Lin and Wang, Zhan and Sun, Ninghui},
+  title     = {PROP: Using PCIe-Based RDMA to Accelerate Rack-Scale Communications in Data Centers},
+  booktitle = {IEEE International Conference on Parallel and Distributed Systems},
+  year      = {2015},
+  pages     = {465-472},
+}
+
+@InProceedings{Akiyama2015Uni,
+  author    = {Akiyama, Shigeki and Taura, Kenjiro},
+  title     = {Uni-Address Threads: Scalable Thread Management for RDMA-Based Work Stealing},
+  booktitle = {International Symposium on High-Performance Parallel and Distributed Computing},
+  year      = {2015},
+  pages     = {15-26},
+}
+
+@Article{Grant2015Scalable,
+  author  = {Grant, Ryan E. and Rashti, Mohammad J. and Balaji, Pavan and Afsahi, Ahmad},
+  title   = {Scalable connectionless RDMA over unreliable datagrams},
+  journal = {Parallel Computing},
+  year    = {2015},
+  volume  = {48},
+  number  = {C},
+  pages   = {15-39},
+}
+
+@InProceedings{Sasaki2015RDMA,
+  author    = {Sasaki, S. and Takahashi, K. and Oyama, Y. and Tatebe, O.},
+  title     = {RDMA-Based Direct Transfer of File Data to Remote Page Cache},
+  booktitle = {IEEE International Conference on CLUSTER Computing},
+  year      = {2015},
+  pages     = {214-225},
+}
+
+@InProceedings{Guo2016RDMA,
+  author    = {Guo, Chuanxiong and Wu, Haitao and Soni, Gaurav and Soni, Gaurav and Ye, Jianxi and Padhye, Jitu and Lipshteyn, Marina},
+  title     = {RDMA over Commodity Ethernet at Scale},
+  booktitle = {Conference on ACM SIGCOMM 2016 Conference},
+  year      = {2016},
+  pages     = {202-215},
+}
+
+@InProceedings{Barthels2015Rack,
+  author    = {Barthels, Claude and Loesing, Simon and Alonso, Gustavo and Kossmann, Donald},
+  title     = {Rack-Scale In-Memory Join Processing using RDMA},
+  booktitle = {ACM SIGMOD International Conference on Management of Data},
+  year      = {2015},
+  pages     = {1463-1475},
+}
+
+@InProceedings{Zhang2017Performance,
+  author    = {Zhang, Yiwen and Gu, Juncheng and Lee, Youngmoon and Chowdhury, Mosharaf and Shin, Kang G},
+  title     = {Performance Isolation Anomalies in RDMA},
+  booktitle = {the Workshop},
+  year      = {2017},
+  pages     = {43-48},
+}
+
+@Article{Ren2013Design,
+  author  = {Ren, Yufei and Li, Tan and Yu, Dantong and Jin, Shudong and Robertazzi, Thomas},
+  title   = {Design and testbed evaluation of RDMA-based middleware for high-performance data transfer applications},
+  journal = {Journal of Systems \& Software},
+  year    = {2013},
+  volume  = {86},
+  number  = {7},
+  pages   = {1850-1863},
+}
+
+@InProceedings{Li2016Improving,
+  author    = {Li, Hu and Chen, Tianjia and Xu, Wei},
+  title     = {Improving Spark performance with zero-copy buffer management and RDMA},
+  booktitle = {Computer Communications Workshops},
+  year      = {2016},
+  pages     = {33-38},
+}
+
+@InProceedings{Wasiurrahman2015High,
+  author    = {Wasiurrahman, Md. and Lu, Xiaoyi and Islam, Nusrat Sharmin and Rajachandrasekar, Raghunath and Panda, Dhabaleswar K.},
+  title     = {High-Performance Design of YARN MapReduce on Modern HPC Clusters with Lustre and RDMA},
+  booktitle = {Parallel and Distributed Processing Symposium},
+  year      = {2015},
+  pages     = {291-300},
+}
+
+@InProceedings{Lu2017High,
+  author    = {Lu, Xiaoyi and Shankar, Dipti and Gugnani, Shashank and Panda, Dhabaleswar K. D K},
+  title     = {High-performance design of apache spark with RDMA and its benefits on various workloads},
+  booktitle = {IEEE International Conference on Big Data},
+  year      = {2017},
+  pages     = {253-262},
+}
+
+@Article{Guan2017Fast,
+  author  = {Guan, Haibing and Guan, Haibing and Guan, Haibing and Guan, Haibing and Guan, Haibing and Guan, Haibing and Guan, Haibing and Guan, Haibing},
+  title   = {Fast In-Memory Transaction Processing Using RDMA and HTM},
+  journal = {Acm Transactions on Computer Systems},
+  year    = {2017},
+  volume  = {35},
+  number  = {1},
+  pages   = {3},
+}
+
+@InProceedings{Hamidouche2015Exploiting,
+  author    = {Hamidouche, Khaled and Venkatesh, Akshay and Awan, Ammar Ahmad and Subramoni, Hari and Chu, Ching Hsiang and Panda, Dhabaleswar K.},
+  title     = {Exploiting GPUDirect RDMA in Designing High Performance OpenSHMEM for NVIDIA GPU Clusters},
+  booktitle = {IEEE International Conference on CLUSTER Computing},
+  year      = {2015},
+  pages     = {78-87},
+}
+
+@InProceedings{Liu2017Design,
+  author    = {Liu, Feilong and Yin, Lingyan and Blanas, Spyros},
+  title     = {Design and Evaluation of an RDMA-aware Data Shuffling Operator for Parallel Database Systems},
+  booktitle = {the Twelfth European Conference},
+  year      = {2017},
+  pages     = {48-63},
+}
+
+@Article{Zhang2016Communication,
+  author  = {Zhang, Weizhe and Hao, Meng and Xu, Zhiyong},
+  title   = {Communication optimization for RDMA-based science data transmission tools},
+  journal = {Journal of Supercomputing},
+  year    = {2016},
+  volume  = {72},
+  number  = {9},
+  pages   = {3312-3327},
+}
+
+@InProceedings{Wang2017APUS,
+  author    = {Wang, Cheng and Jiang, Jianyu and Chen, Xusheng and Yi, Ning and Cui, Heming and Wang, Cheng and Jiang, Jianyu and Chen, Xusheng and Yi, Ning and Cui, Heming},
+  title     = {APUS: fast and scalable paxos on RDMA},
+  booktitle = {Symposium},
+  year      = {2017},
+  pages     = {94-107},
+}
+
+@InProceedings{180191,
+  author    = {Christopher Mitchell and Yifeng Geng and Jinyang Li},
+  title     = {Using One-Sided {RDMA} Reads to Build a Fast, CPU-Efficient Key-Value Store},
+  booktitle = {Presented as part of the 2013 {USENIX} Annual Technical Conference ({USENIX} {ATC} 13)},
+  year      = {2013},
+  publisher = {{USENIX}},
+  isbn      = {978-1-931971-01-0},
+  pages     = {103--114},
+  url       = {https://www.usenix.org/conference/atc13/technical-sessions/presentation/mitchell},
+  address   = {San Jose, CA},
+}
+
+@InProceedings{Su2017RFP,
+  author    = {Su, Maomeng and Zhang, Mingxing and Chen, Kang and Guo, Zhenyu and Wu, Yongwei},
+  title     = {RFP: When RPC is Faster than Server-Bypass with RDMA},
+  booktitle = {Twelfth European Conference on Computer Systems},
+  year      = {2017},
+  pages     = {1-15},
+}
+
+@InProceedings{Sasaki2016RDMA,
+  author    = {Sasaki, Shin and Matsumiya, Ryo and Takahashi, Kazushi and Oyama, Yoshihiro and Tatebe, Osamu},
+  title     = {RDMA-Based Cooperative Caching for a Distributed File System},
+  booktitle = {IEEE International Conference on Parallel and Distributed Systems},
+  year      = {2016},
+  pages     = {344-353},
+}
+
+@InProceedings{Yang2016InnerCache,
+  author    = {Yang, Min and Yu, Songping and Yu, Rujie and Xiao, Nong and Liu, Fang and Chen, Wei},
+  title     = {InnerCache: A Tactful Cache Mechanism for RDMA-Based Key-Value Store},
+  booktitle = {IEEE International Conference on Web Services},
+  year      = {2016},
+  pages     = {646-649},
+}
+
+@InProceedings{Shankar2016High,
+  author    = {Shankar, Dipti and Lu, Xiaoyi and Islam, Nusrat and Wasi-Ur-Rahman, Md. and Panda, Dhabaleswar K.},
+  title     = {High-Performance Hybrid Key-Value Store on Modern Clusters with RDMA Interconnects and SSDs: Non-blocking Extensions, Designs, and Benefits},
+  booktitle = {Parallel and Distributed Processing Symposium, 2016 IEEE International},
+  year      = {2016},
+  pages     = {393-402},
+}
+
+@Article{Li2016Accelerating,
+  author = {Li, Feng and Das, Sudipto and Syamala, Manoj and Narasayya, Vivek R},
+  title  = {Accelerating Relational Databases by Leveraging Remote Memory and RDMA},
+  year   = {2016},
+  pages  = {355-370},
+  review = {@article{Kaminsky2014MICA,
+  title={MICA: A Holistic Approach to Fast In-Memory Key-Value Storage},
+  author={Kaminsky, M. and Andersen, D. and Lim, H},
+  journal={Management},
+  year={2014},
+}},
+}
+
+@InProceedings{Islam2015Accelerating,
+  author    = {Islam, Nusrat Sharmin and Shankar, Dipti and Lu, Xiaoyi and Wasi-Ur-Rahman, Md},
+  title     = {Accelerating I/O Performance of Big Data Analytics on HPC Clusters through RDMA-Based Key-Value Store},
+  booktitle = {International Conference on Parallel Processing},
+  year      = {2015},
+  pages     = {280-289},
+}
+
+@Article{Wang2015HydraDB,
+  author = {Wang, Yandong and Zhang, Li and Tan, Jian and Li, Min and Gao, Yuqing and Guerin, Xavier and Meng, Xiaoqiao and Meng, Shicong},
+  title  = {HydraDB: a resilient RDMA-driven key-value middleware for in-memory cluster computing},
+  year   = {2015},
+  pages  = {1-11},
+}
+
+@Article{Zhang2017A,
+  author  = {Zhang, Kai and Wang, Kaibo and Yuan, Yuan and Guo, Lei and Li, Rubao and Zhang, Xiaodong and He, Bingsheng and Hu, Jiayu and Hua, Bei},
+  title   = {A distributed in-memory key-value store system on heterogeneous CPU–GPU cluster},
+  journal = {Vldb Journal},
+  year    = {2017},
+  number  = {4},
+  pages   = {1-22},
+}
+
+@InProceedings{Wang2013Using,
+  author    = {Wang, Ke and Kulkarni, Abhishek and Lang, Michael and Arnold, Dorian and Raicu, Ioan},
+  title     = {Using simulation to explore distributed key-value stores for extreme-scale system services},
+  booktitle = {International Conference on High PERFORMANCE Computing, Networking, Storage and Analysis},
+  year      = {2013},
+  pages     = {9},
+}
+
+@Article{Li2016Full,
+  author  = {Li, Sheng and Lim, Hyeontaek and Lee, Victor W. and Ahn, Jung Ho and Kalia, Anuj and Kaminsky, Michael and Andersen, David G. and Seongil, O and Lee, Sukhan and Dubey, Pradeep},
+  title   = {Full-Stack Architecting to Achieve a Billion-Requests-Per-Second Throughput on a Single Key-Value Store Server Platform},
+  journal = {Acm Transactions on Computer Systems},
+  year    = {2016},
+  volume  = {34},
+  number  = {2},
+  pages   = {5},
+}
+
+@InProceedings{194904,
+  author    = {Xiaozhou Li and Raghav Sethi and Michael Kaminsky and David G. Andersen and Michael J. Freedman},
+  title     = {Be Fast, Cheap and in Control with SwitchKV},
+  booktitle = {13th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 16)},
+  year      = {2016},
+  publisher = {{USENIX} Association},
+  isbn      = {978-1-931971-29-4},
+  pages     = {31--44},
+  url       = {https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-xiaozhou},
+  address   = {Santa Clara, CA},
+}
+
+@Article{Zhang2017CubicRing,
+  author  = {Zhang, Yiming and Li, Dongsheng and Guo, Chuanxiong and Wu, Haitao and Xiong, Yongqiang and Lu, Xicheng},
+  title   = {CubicRing: Exploiting Network Proximity for Distributed In-Memory Key-Value Store},
+  journal = {IEEE/ACM Transactions on Networking},
+  year    = {2017},
+  volume  = {PP},
+  number  = {99},
+  pages   = {1-14},
+}
+
+@InProceedings{Huq2017Distributed,
+  author    = {Huq, Sikder and Shafiq, Zubair and Ghosh, Sukumar and Khakpour, Amir and Bedi, Harkeerat},
+  title     = {Distributed Load Balancing in Key-Value Networked Caches},
+  booktitle = {IEEE International Conference on Distributed Computing Systems},
+  year      = {2017},
+  pages     = {583-593},
+}
+
+@InProceedings{Dubey2015Architecting,
+  author    = {Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep and Dubey, Pradeep},
+  title     = {Architecting to achieve a billion requests per second throughput on a single key-value store server platform},
+  booktitle = {International Symposium on Computer Architecture},
+  year      = {2015},
+  pages     = {476-488},
+}
+
+@InProceedings{Wang2017MetaKV,
+  author    = {Wang, Teng and Moody, Adam and Zhu, Yue and Mohror, Kathryn and Sato, Kento and Islam, Tanzima and Yu, Weikuan},
+  title     = {MetaKV: A Key-Value Store for Metadata Management of Distributed Burst Buffers},
+  booktitle = {Parallel and Distributed Processing Symposium},
+  year      = {2017},
+  pages     = {1174-1183},
+}
+
+@InProceedings{Shankar2015Benchmarking,
+  author    = {Shankar, D. and Lu, Xiaoyi and Wasi-Ur-Rahman, M. and Islam, N.},
+  title     = {Benchmarking key-value stores on high-performance storage and interconnects for web-scale workloads},
+  booktitle = {IEEE International Conference on Big Data},
+  year      = {2015},
+  pages     = {539-544},
+}
+
+@Article{Chen2016Fast,
+  author = {Chen, Yanzhe and Wei, Xingda and Shi, Jiaxin and Chen, Rong and Chen, Haibo},
+  title  = {Fast and general distributed transactions using RDMA and HTM},
+  year   = {2016},
+  pages  = {1-17},
+}
+
+@InProceedings{199315,
+  author    = {Anuj Kalia and Michael Kaminsky and David G. Andersen},
+  title     = {FaSST: Fast, Scalable and Simple Distributed Transactions with Two-Sided ({RDMA}) Datagram RPCs},
+  booktitle = {12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16)},
+  year      = {2016},
+  publisher = {{USENIX} Association},
+  isbn      = {978-1-931971-33-1},
+  pages     = {185--201},
+  url       = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/kalia},
+  address   = {GA},
+}
+
+@Article{DBLP:journals/debu/LuSP17,
+  author    = {Xiaoyi Lu and Dipti Shankar and Dhabaleswar K. Panda},
+  title     = {Scalable and Distributed Key-Value Store-based Data Management Using RDMA-Memcached},
+  journal   = {{IEEE} Data Eng. Bull.},
+  year      = {2017},
+  volume    = {40},
+  number    = {1},
+  pages     = {50--61},
+  url       = {http://sites.computer.org/debull/A17mar/p50.pdf},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  biburl    = {http://dblp.org/rec/bib/journals/debu/LuSP17},
+  timestamp = {Sun, 07 May 2017 14:02:47 +0200},
+}
+
+@Article{Bailis2016Distributed,
+  author  = {Bailis, Peter and Fournier, Camille and Arulraj, Joy and Pavlo, Andrew},
+  title   = {Distributed consensus and implications of NVM on database management systems},
+  journal = {Communications of the Acm},
+  year    = {2016},
+  volume  = {14},
+  number  = {3},
+  pages   = {53-67},
+}
+
+@InProceedings{Islam2016High,
+  author    = {Islam, Nusrat Sharmin and Wasi-Ur-Rahman, Md and Lu, Xiaoyi and Panda, Dhabaleswar K},
+  title     = {High Performance Design for HDFS with Byte-Addressability of NVM and RDMA},
+  booktitle = {International Conference on Supercomputing},
+  year      = {2016},
+  pages     = {8},
+}
+
+@InProceedings{203213,
+  author    = {Youyou Lu and Jiwu Shu and Youmin Chen and Tao Li},
+  title     = {Octopus: an RDMA-enabled Distributed Persistent Memory File System},
+  booktitle = {2017 {USENIX} Annual Technical Conference ({USENIX} {ATC} 17)},
+  year      = {2017},
+  publisher = {{USENIX} Association},
+  isbn      = {978-1-931971-38-6},
+  pages     = {773--785},
+  url       = {https://www.usenix.org/conference/atc17/technical-sessions/presentation/lu},
+  address   = {Santa Clara, CA},
+}
+
+@InProceedings{Yu2017Megalloc,
+  author    = {Yu, Songping and Xiao, Nong and Deng, Mingzhu and Xing, Yuxuan and Liu, Fang and Chen, Wei},
+  title     = {Megalloc: Fast Distributed Memory Allocator for NVM-Based Cluster},
+  booktitle = {International Conference on Networking, Architecture, and Storage},
+  year      = {2017},
+  pages     = {1-9},
+}
+
+@Article{Kaminsky2014MICA,
+  author  = {Kaminsky, M. and Andersen, D. and Lim, H},
+  title   = {MICA: A Holistic Approach to Fast In-Memory Key-Value Storage},
+  journal = {Management},
+  year    = {2014},
+}
+
+@Article{Wu2015LSM,
+  author = {Wu, Xingbo and Xu, Yuehai and Shao, Zili and Jiang, Song},
+  title  = {LSM-trie: An LSM-tree-based Ultra-Large Key-Value Store for Small Data},
+  year   = {2015},
+}
+
+@InProceedings{Fan2013MemC3,
+  author    = {Fan, Bin and Andersen, David G and Kaminsky, Michael},
+  title     = {MemC3: compact and concurrent MemCache with dumber caching and smarter hashing},
+  booktitle = {Usenix Conference on Networked Systems Design and Implementation},
+  year      = {2013},
+  pages     = {371-384},
+}
+
+@Article{Zang2017Efficient,
+  author  = {Zang, Binyu and Zang, Binyu and Zang, Binyu and Zang, Binyu and Zang, Binyu and Zang, Binyu and Zang, Binyu},
+  title   = {Efficient and Available In-Memory KV-Store with Hybrid Erasure Coding and Replication},
+  journal = {Acm Transactions on Storage},
+  year    = {2017},
+  volume  = {13},
+  number  = {3},
+  pages   = {25},
+}
+
+@InProceedings{Huang2012Erasure,
+  author    = {Huang, Cheng and Simitci, Huseyin and Xu, Yikang and Ogus, Aaron and Calder, Brad and Gopalan, Parikshit and Li, Jin and Yekhanin, Sergey},
+  title     = {Erasure coding in windows azure storage},
+  booktitle = {Usenix Conference on Technical Conference},
+  year      = {2012},
+  pages     = {2-2},
+}
+
+@InProceedings{Zheng2017HMVFS,
+  author    = {Zheng, Shengan and Huang, Linpeng and Liu, Hao and Wu, Linzhu and Zha, Jin},
+  title     = {HMVFS: A Hybrid Memory Versioning File System},
+  booktitle = {MASS Storage Systems and Technologies},
+  year      = {2017},
+}
+
+@Article{Xiang2013Experimental,
+  author  = {Xiang, X. U. and Zou, Fumin and Liao, Lyvchao},
+  title   = {Experimental analysis for calculation performance of mass data based on GemFire},
+  journal = {Journal of Computer Applications},
+  year    = {2013},
+  volume  = {17},
+  number  = {1},
+  pages   = {V08AT09A002-V08AT09A002},
+}
+
+@Article{Atikoglu2012,
+  author  = {Atikoglu, Berk and Xu, Yuehai and Frachtenberg, Eitan and Jiang, Song and Paleczny, Mike},
+  title   = {Workload analysis of a large-scale key-value store},
+  journal = {Acm Sigmetrics Performance Evaluation Review},
+  year    = {2012},
+  volume  = {40},
+  number  = {1},
+  pages   = {53-64},
+}
+
+@Article{Debnath2016Revisiting,
+  author  = {Debnath, Biplob and Haghdoost, Alireza and Ungureanu, Cristian and Ungureanu, Cristian and Ungureanu, Cristian},
+  title   = {Revisiting Hash Table Design for Phase Change Memory},
+  journal = {Acm Sigops Operating Systems Review},
+  year    = {2016},
+  volume  = {49},
+  number  = {2},
+  pages   = {18-26},
+}
+
+@InProceedings{203265,
+  author    = {Fei Xia and Dejun Jiang and Jin Xiong and Ninghui Sun},
+  title     = {HiKV: A Hybrid Index Key-Value Store for DRAM-NVM Memory Systems},
+  booktitle = {2017 {USENIX} Annual Technical Conference ({USENIX} {ATC} 17)},
+  year      = {2017},
+  publisher = {{USENIX} Association},
+  isbn      = {978-1-931971-38-6},
+  pages     = {349--362},
+  address   = {Santa Clara, CA},
+}
+
+@Article{Yoo2018OrcFS,
+  author  = {Yoo, Jinsoo and Oh, Joontaek and Lee, Seongjin and Won, Youjip and Ha, Jin Yong and Lee, Jongsung and Shim, Junseok},
+  title   = {OrcFS: Orchestrated File System for Flash Storage},
+  journal = {Acm Transactions on Storage},
+  year    = {2018},
+  volume  = {14},
+  number  = {2},
+  pages   = {1-26},
+}
+
+@InProceedings{Zhang2016ParaFSAL,
+  author    = {Jiacheng Zhang and Jiwu Shu and Youyou Lu},
+  title     = {ParaFS: A Log-Structured File System to Exploit the Internal Parallelism of Flash Devices},
+  booktitle = {USENIX Annual Technical Conference},
+  year      = {2016},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

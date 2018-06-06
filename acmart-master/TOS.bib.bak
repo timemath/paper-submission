@@ -1,0 +1,215 @@
+% Encoding: UTF-8
+
+@InProceedings{DBLP:conf/mss/LuSS15,
+  author    = {Youyou Lu and Jiwu Shu and Long Sun},
+  title     = {Blurred persistence in transactional persistent memory},
+  booktitle = {{IEEE} 31st Symposium on Mass Storage Systems and Technologies, {MSST} 2015, Santa Clara, CA, USA, May 30 - June 5, 2015},
+  year      = {2015},
+  pages     = {1--13},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/mss/LuSS15},
+  crossref  = {DBLP:conf/mss/2015},
+  doi       = {10.1109/MSST.2015.7208274},
+  timestamp = {Fri, 26 May 2017 00:50:28 +0200},
+  url       = {https://doi.org/10.1109/MSST.2015.7208274},
+}
+
+@InProceedings{DBLP:conf/mss/LuSS15,
+  author    = {Youyou Lu and Jiwu Shu and Long Sun},
+  title     = {Blurred persistence in transactional persistent memory},
+  booktitle = {{IEEE} 31st Symposium on Mass Storage Systems and Technologies, {MSST} 2015, Santa Clara, CA, USA, May 30 - June 5, 2015},
+  year      = {2015},
+  pages     = {1--13},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/mss/LuSS15},
+  crossref  = {DBLP:conf/mss/2015},
+  doi       = {10.1109/MSST.2015.7208274},
+  timestamp = {Fri, 26 May 2017 00:50:28 +0200},
+  url       = {https://doi.org/10.1109/MSST.2015.7208274},
+}
+
+@Electronic{3dxpoint,
+  title     = {Intel and Micron 3D XPoint Technology. \url{https://en.wikipedia.org/wiki/3D_XPoint}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Article{Wong2010Phase,
+  author  = {Wong, H. S. P. and Raoux, S. and Kim, Sang Bum and Liang, Jiale and Reifenberg, John P. and Rajendran, B. and Asheghi, Mehdi and Goodson, Kenneth E.},
+  title   = {Phase Change Memory},
+  journal = {Proceedings of the IEEE},
+  year    = {2010},
+  volume  = {98},
+  number  = {12},
+  pages   = {2201-2227},
+}
+
+@Electronic{nvml,
+  title     = {Intel. NVML: Non-volatile memory library. [2017-02-01]. \url{https://github.com/pmem/pmdk/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{3dxpoint,
+  title     = {Intel and Micron 3D XPoint Technology. \url{https://en.wikipedia.org/wiki/3D_XPoint}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{NVDIMM,
+  author = {NVDIMM},
+  title  = {\url{http://www.vikingtechnology.com/nvdimm-technology}},
+}
+
+@InProceedings{Lu2014Loose,
+  author    = {Lu, Youyou and Shu, Jiwu and Sun, Long and Mutlu, O},
+  title     = {Loose-Ordering Consistency for persistent memory},
+  booktitle = {IEEE International Conference on Computer Design},
+  year      = {2014},
+  pages     = {216-223},
+}
+
+@Article{Wong2010Phase,
+  author  = {Wong, H. S. P. and Raoux, S. and Kim, Sang Bum and Liang, Jiale and Reifenberg, John P. and Rajendran, B. and Asheghi, Mehdi and Goodson, Kenneth E.},
+  title   = {Phase Change Memory},
+  journal = {Proceedings of the IEEE},
+  year    = {2010},
+  volume  = {98},
+  number  = {12},
+  pages   = {2201-2227},
+}
+
+@Article{Wang2013Low,
+  author  = {Wang, K L and Alzate, J G and Amiri, P Khalili},
+  title   = {Low-power non-volatile spintronic memory: STT-RAM and beyond},
+  journal = {Journal of Physics D Applied Physics},
+  year    = {2013},
+  volume  = {46},
+  number  = {7},
+  pages   = {1071-1075},
+}
+
+@InProceedings{Tolia2011Consistent,
+  author    = {Tolia, Niraj and Tolia, Niraj and Ranganathan, Parthasarathy and Campbell, Roy H.},
+  title     = {Consistent and durable data structures for non-volatile byte-addressable memory},
+  booktitle = {Usenix Conference on File and Stroage Technologies},
+  year      = {2011},
+  pages     = {5-5},
+}
+
+@InProceedings{Yang2015NV,
+  author    = {Yang, Jun and Wei, Qingsong and Chen, Cheng and Wang, Chundong and Yong, Khai Leong and He, Bingsheng},
+  title     = {NV-Tree: reducing consistency cost for NVM-based single level systems},
+  booktitle = {Usenix Conference on File and Storage Technologies},
+  year      = {2015},
+}
+
+@InProceedings{xu2016nova,
+  author       = {Xu, Jian and Swanson, Steven},
+  title        = {NOVA: a log-structured file system for hybrid volatile/non-volatile main memories},
+  booktitle    = {Proceedings of the 14th Usenix Conference on File and Storage Technologies},
+  year         = {2016},
+  pages        = {323--338},
+  organization = {USENIX Association},
+}
+
+@InProceedings{dulloor2014system,
+  author       = {Dulloor, Subramanya R and Kumar, Sanjay and Keshavamurthy, Anil and Lantz, Philip and Reddy, Dheeraj and Sankaran, Rajesh and Jackson, Jeff},
+  title        = {System software for persistent memory},
+  booktitle    = {Proceedings of the Ninth European Conference on Computer Systems},
+  year         = {2014},
+  pages        = {15},
+  organization = {ACM},
+  owner        = {liuhao},
+  timestamp    = {2015.10.01},
+}
+
+@InProceedings{Ou2016A,
+  author    = {Ou, Jiaxin and Shu, Jiwu and Lu, Youyou},
+  title     = {A high performance file system for non-volatile main memory},
+  booktitle = {Proceedings of the Eleventh European Conference on Computer Systems},
+  year      = {2016},
+}
+
+@Article{Liu2018HMFS,
+  author  = {Liu, Hao and Huang, Linpeng and Zhu, Yanmin and Zheng, Shengan and Shen, Yanyan},
+  title   = {HMFS: A hybrid in-memory file system with version consistency},
+  journal = {Journal of Parallel \& Distributed Computing},
+  year    = {2018},
+}
+
+@Article{Zangeneh2014Design,
+  author  = {Zangeneh, M. and Joshi, A.},
+  title   = {Design and Optimization of Nonvolatile Multibit 1T1R Resistive RAM},
+  journal = {IEEE Transactions on Very Large Scale Integration Systems},
+  year    = {2014},
+  volume  = {22},
+  number  = {8},
+  pages   = {1815-1828},
+}
+
+@Article{Volos2011Mnemosyne,
+  author  = {Volos, Haris and Tack, Andres Jaan and Swift, Michael M.},
+  title   = {Mnemosyne:lightweight persistent memory},
+  journal = {Acm Sigarch Computer Architecture News},
+  year    = {2011},
+  volume  = {39},
+  number  = {1},
+  pages   = {91-104},
+}
+
+@Article{Coburn2011NV,
+  author  = {Coburn, Joel and Caulfield, Adrian M. and Akel, Ameen and Grupp, Laura M. and Gupta, Rajesh K. and Jhala, Ranjit and Swanson, Steven},
+  title   = {NV-Heaps:making persistent objects fast and safe with next-generation, non-volatile memories},
+  journal = {ACM SIGPLAN Notices},
+  year    = {2011},
+  volume  = {47},
+  number  = {4},
+  pages   = {105-118},
+}
+
+@Article{Hwang2014HEAPO,
+  author  = {Hwang, Taeho and Jung, Jaemin and Won, Youjip},
+  title   = {HEAPO: Heap-Based Persistent Object Store},
+  journal = {Acm Transactions on Storage},
+  year    = {2014},
+  volume  = {11},
+  number  = {1},
+}
+
+@Electronic{,
+  title     = {Intel. NVML: Non-volatile memory library. [2017-02-01]. \url{https://github.com/pmem/pmdk/}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{3dxpoint,
+  title     = {Intel and Micron 3D XPoint Technology. \url{https://en.wikipedia.org/wiki/3D_XPoint}},
+  owner     = {hao},
+  timestamp = {2015.01.28},
+}
+
+@Electronic{NVDIMM,
+  author = {NVDIMM},
+  title  = {\url{http://www.vikingtechnology.com/nvdimm-technology}},
+}
+
+@InProceedings{Lu2014Loose,
+  author    = {Lu, Youyou and Shu, Jiwu and Sun, Long and Mutlu, O},
+  title     = {Loose-Ordering Consistency for persistent memory},
+  booktitle = {IEEE International Conference on Computer Design},
+  year      = {2014},
+  pages     = {216-223},
+}
+
+@Article{Wong2010Phase,
+  author  = {Wong, H. S. P. and Raoux, S. and Kim, Sang Bum and Liang, Jiale and Reifenberg, John P. and Rajendran, B. and Asheghi, Mehdi and Goodson, Kenneth E.},
+  title   = {Phase Change Memory},
+  journal = {Proceedings of the IEEE},
+  year    = {2010},
+  volume  = {98},
+  number  = {12},
+  pages   = {2201-2227},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
