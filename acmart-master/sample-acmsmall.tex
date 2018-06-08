@@ -115,51 +115,42 @@
 
 	\begin{itemize}
 		\item We design a fast replication mechanism which is optimized for NVM over RDMA fabric.
-		\item We implemented a distributed key-value store prototype called DoubleM-KV. We conducted experiments on Mellanox ConnectX-3 NIC to evaluate the performance of our design. Experimental results show that a replication of 32 bytes PUT request to 2 backup servers completes in only around 2$\upmu$s.
+		\item We implemented a distributed key-value store prototype called DoubleM-KV. We conducted experiments on Mellanox ConnectX-3 NIC to evaluate the performance of our system. Experimental results show that a replication of 32 bytes PUT request to 2 backup servers completes in only around 2$\upmu$s. 
 		\item To overcome the limitation of traditional key-value stores, we first explores the design of a distributed low-latency key-value store on non-volatile main memory by leveraging RDMA. 
 	\end{itemize}
 
-	The remainder of this paper is structured as follows. The following section briefly introduces key/value stores, NVM and RDMA. Section III presents our design and describes the replication approach. Section IV shows several importantimplementation details of NVDS. In Section V, we evaluate our work on servers equipped with Mellaonx infiniband. Finally, we conclude our paper in Section VII.
-
+	The roadmap of this paper is as follows. Section \ref{sec:motivation} presents briefly introduces key-value stores, NVM and RDMA. Section \ref{sec:design} presents our design and describes the replication approach. Section \ref{sec:implementation} shows several important implementation details of DoubleM-KV. In section \ref{sec:evaluation}, we evaluate our work on servers equipped with Mellaonx infiniband. Finally, we conclude our paper in section \ref{sec:conclusion}.
 	
+\section{Motivation and Background}\label{sec:motivation}
 	
-
+	For providing good quality of service in many large-scale web applications, key-value store systems are deployed as an important infrastructure in the data centers. It often adopted as a temporary storage place for high-throughput and low latency data accesses. The data organizing structure and user interfaces of key-value store system are simple and flexible. Distributed key-value store systems offer many advantages over their centralized counterparts. For example, the decentralized structure supports well scalability automatic load balancing and the use of replication in a highly distributed environment can improve reliability and data availability. In our paper, we locate the background of our key-value store system on NVM and RDMA, we motivate our work to solve the problem of fast replication and low-latency access by utilizing NVM and RDMA technologies. Next, we introduce the background of our work respectively.
+	 	
+\subsection{Non-Volatile Memory}
 	
-
+	Next-generation non-volatile memories(NVMs) which is also called Persistent Memory(PM), such as 3D XPoint\cite{3dxpoint}, phase change memory(PCM)\cite{Wong2010Phase}, spin-transfer torque magnetic memory(STT-RAM)\cite{Wang2013Low} and the memristor\cite{Zangeneh2014Design} possess unique features of byte addressability, non-volatility, persistence and comparable read and write latency to that of DRAM. These features make NVM technology holds a great potential to change the landscape of memory and storage industry. If applications want to exploit all the low latency and byte-addressability benefits of PM, they should directly access it via memory load and store instructions without any software overhead. If our system can guarantee the consistency of data which is stored in NVM even after system crash and power failure, the non-volatility of NVM will make it persistent naturally. According to this conclusion, many of the in-memory systems can be reconstructed for NVM, for example, persistent in-memory file system and key-value store system. Unfortunately, most previous durable in-memory systems were designed for the single-node environment. With modern data center applications' computation scale, we have to be able to scale out these single-node PM systems. Under this demand, a distributed system architecture with good scalability and high performance is deserved, and a effective communication network between the single-nodes also affect the whole system performance to a large extent.
 	
-
-	
-	
-	
-	
-\section{Motivation and Background}
-
-\subsection{Non-Volatile Memory}	
-	
-	
-
 \subsection{Remote Direct Memory Access}
+
+	Remote Direct Memory Access(RDMA) technology refers to the direct memory access from the memory of one computer into that of another without involving either one's operating system. This method permits high-throughput, low-latency networking, which is especially useful in massively distributed computer clusters and data centers. RDMA supports zero-copy networking by enabling the network adapter to transfer data directly to or from application memory, eliminating the need to copy data between application memory and the data buffers in the operating system. RDMA supports both one-sided and two-sided communication. One-sided RDMA operations directly access memory at a remote node without involving the remote node’s CPU. Two-sided RDMA operations inform the remote node of a delivered message. RDMA supports reliable and unreliable connections(RC and UC) and unreliable datagram(UD). The standard interface of native RDMA is a set of operations collectively called	Verbs. Native RDMA allows accesses from both user space	and kernel space using Verbs. 
+		
+\subsection{Key-Value Store}
+	
+	Key-value store system is 
+	
+\section{DoubleM-KV Design}\label{sec:design}
+
+	In this section, we 
+
+\section{Implementation}\label{sec:implementation}
 	
 
-\subsection{Distributed Key-Value Store}
-	
-	
-	
-\section{DoubleM-KV Design}
+\section{Evaluation}\label{sec:evaluation}
 
 
-
-\section{Implementation}
-
+\section{Related Work}\label{sec:relatedwork}
 	
 
-\section{Evaluation}
-
-
-\section{Related Work}
-	
-
-\section{Conclusion}
+\section{Conclusion}\label{sec:conclusion}
 	
 	
 	
